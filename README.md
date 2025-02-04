@@ -1,16 +1,39 @@
-# speaker_timer_app
+# 🎙️ Flutter Recording App  
 
-A new Flutter project.
+A Flutter app for recording audio, detecting speaker activity, tracking silence time, and generating reports. 🚀  
 
-## Getting Started
+## 📸 App Screenshots  
+<p align="center">
+  <img src="assets/screenshots/homescreen.jpeg" width="300">
+  <img src="assets/screenshots/recoding_screen.jpeg" width="300">
+  <img src="assets/screenshots/Report_gen.jpeg" width="300">
+</p>
 
-This project is a starting point for a Flutter application.
+<p align="center">
+  <b>Home Screen</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <b>Recording Screen</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <b>Report Generation</b>
+</p>
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## ✨ Features  
+✅ **Record audio** using the device microphone  
+✅ **Detect speaker activity** (Speaker A & Speaker B)  
+✅ **Track silence duration** for each speaker  
+✅ **Monitor inter-speaker silence** when switching between speakers  
+✅ **Display waveform visualization** while recording  
+✅ **Generate a detailed report** of the recording session  
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ Technologies Used  
+- **Flutter** (Dart)  
+- **flutter_sound** (Audio recording)  
+- **audio_waveforms** (Waveform visualization)  
+- **Lottie** (Animated UI components)  
+- **path_provider** (File storage)  
+
+## 🔧 Installation & Setup  
+
+### 1️⃣ Clone the Repository  
+```bash
+git clone https://github.com/yourusername/flutter-recording-app.git
+cd flutter-recording-app
