@@ -17,14 +17,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.11.0"
-  audio_session:
-    dependency: transitive
-    description:
-      name: audio_session
-      sha256: "2b7fff16a552486d078bfc09a8cde19f426dc6d6329262b684182597bec5b1ac"
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.1.25"
   audio_waveforms:
     dependency: "direct main"
     description:
@@ -154,26 +146,26 @@ packages:
     dependency: "direct main"
     description:
       name: flutter_sound
-      sha256: "223949653433bfc22749e9a9725c802733ed24e6dd51c53775716c340631dcae"
+      sha256: a4662bd1bb15a51569b908deb58a3e9ecc14c7080783487202d015644712f1ef
       url: "https://pub.dev"
     source: hosted
-    version: "9.20.5"
+    version: "9.23.1"
   flutter_sound_platform_interface:
     dependency: transitive
     description:
       name: flutter_sound_platform_interface
-      sha256: b85ac6eb1a482329c560e189fca75d596091c291a7d1756e0a3c9536ae87af1b
+      sha256: "0ebd302180ddc91c993d4bb061f08d71a047ebb0f04b05befd2ee8de59ea947d"
       url: "https://pub.dev"
     source: hosted
-    version: "9.20.5"
+    version: "9.23.1"
   flutter_sound_web:
     dependency: transitive
     description:
       name: flutter_sound_web
-      sha256: dccae5647cdcac368723ff90a3fb2ec0d77b2e871ceb47b3de628806b0ca325c
+      sha256: "0891d977674be94d8c3f4759c6cd11e7f29a1ed29dc287b874a1393666ac831f"
       url: "https://pub.dev"
     source: hosted
-    version: "9.20.5"
+    version: "9.23.1"
   flutter_test:
     dependency: "direct dev"
     description: flutter
@@ -188,10 +180,10 @@ packages:
     dependency: "direct main"
     description:
       name: flutter_webrtc
-      sha256: "4c76069f724f79dc6e8739c8f16c2ee00ca30a1f8e3aa75c0e830f8183278f03"
+      sha256: e917067abeef2400e6a7a03db53a6e1418551e54809f18ab80447ac323eb77e4
       url: "https://pub.dev"
     source: hosted
-    version: "0.12.7"
+    version: "0.12.8"
   http:
     dependency: transitive
     description:
@@ -464,14 +456,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "4.1.0"
-  rxdart:
-    dependency: transitive
-    description:
-      name: rxdart
-      sha256: "5c3004a4a8dbb94bd4bf5412a4def4acdaa12e12f269737a5751369e12d1a962"
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.28.0"
   sky_engine:
     dependency: transitive
     description: flutter
@@ -593,10 +577,10 @@ packages:
     dependency: transitive
     description:
       name: webrtc_interface
-      sha256: abec3ab7956bd5ac539cf34a42fa0c82ea26675847c0966bb85160400eea9388
+      sha256: "10fc6dc0ac16f909f5e434c18902415211d759313c87261f1e4ec5b4f6a04c26"
       url: "https://pub.dev"
     source: hosted
-    version: "1.2.0"
+    version: "1.2.1"
   xdg_directories:
     dependency: transitive
     description:
@@ -606,5 +590,5 @@ packages:
     source: hosted
     version: "1.1.0"
 sdks:
-  dart: ">=3.6.0 <4.0.0"
+  dart: ">=3.6.1 <4.0.0"
   flutter: ">=3.27.0"
