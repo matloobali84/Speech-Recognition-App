@@ -16,7 +16,7 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.black38,
+      backgroundColor: Colors.cyan,
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
@@ -29,7 +29,7 @@ class HomeScreen extends StatelessWidget {
           ElevatedButton.icon(
             onPressed: () => _startRecording(context),
             icon: Icon(Icons.mic, color: Colors.white),
-            label: Text("Start Recording", style: TextStyle(fontSize: 18, color: Colors.white)),
+            label: Text("Start recording", style: TextStyle(fontSize: 18, color: Colors.white)),
             style: ElevatedButton.styleFrom(backgroundColor: Colors.redAccent),
           ),
           const SizedBox(height: 20),
